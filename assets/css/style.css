@@ -1,0 +1,186 @@
+.nav{
+display: flex;
+/* border: 1px solid black; */
+}
+.nav .navlogo{
+/* border: 1px solid red; */
+/* height: 20vh; */
+/* width: 20vh; */
+}
+.nav .navlogo  img{
+    height: 10vh;
+}
+.nav .navlinks{
+    /* border: 1px solid red; */
+    flex-grow: 1;
+    text-align: right;
+    /* margin-top: 10px; */
+    padding: 15px 10px;
+}
+.nav .navlinks ul{
+    /* text-align: right; */
+    list-style: none;
+    display: inline-flex;
+}
+.nav .navlinks ul li{
+    /* text-align: right; */
+}
+.nav .navlinks ul li a{
+    text-decoration: none;
+    /* border: 1px solid blue; */
+    /* text-align: right; */
+    padding: 0px 10px;
+}
+.nav .buy{
+    padding-top: 10px;
+}
+.nav .navlinks ul li a:hover{
+    color: red;
+    background-color: black;
+}
+.nav .navlinks .demo{
+    display: block;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    margin-right: 40px;
+    text-align: left;
+    display: none;
+}
+.nav .navlinks ul li .hover a:hover{
+display: block;
+color: red;
+}
+.banner{
+    background-image: url(/assets/image/church\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    margin-top: -5px;
+}
+.bannertexts{
+    text-align: center;
+    padding-top: 180px;
+}
+.bannertexts i{
+    font-size: 2rem;
+}
+
+.bannertexts h3{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+ }
+.bannertexts p{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.bannertexts button{
+    text-transform: uppercase;
+}
+.sof h2{
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.sofevents{
+    display: flex;
+    text-align: center;
+    margin: 25px 15px 0px 15px;
+}
+.sofevents h3{
+text-transform: capitalize;
+}
+.sofevents p{
+    padding: 0px 15px;
+}
+.welcome{
+    display: flex;
+    text-transform: capitalize;
+    /* border: 1px solid  red; */
+    margin-top: 25px;
+    padding: 15px 25px 0px 15px;
+}
+.welcome1{
+flex-grow: 1;
+margin: 15px 2rem 0px 1.5rem;
+padding: 15px 0px;
+border-right: 1px solid white;
+}
+.welcome2{
+    flex-grow: 1;
+    margin: 15px 2rem 0px -30px;
+    padding: 15px 20px;
+}
+.welcome2 i{
+margin-left: -.5rem;
+}
+.welcome2 span{
+    margin-left: 2px;
+}
+.read{
+    flex-grow: 1;
+    /* border: 1px solid white; */
+    text-align: center;
+    padding-top: 2rem;
+}
+.read button{
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+#wtc{
+    /* display: flex; */
+}
+.wtc-contents{
+    display: flex;
+}
+.wtc-first{
+    flex-grow: 1;
+    margin: 3rem 2rem 0px 3rem ;
+    padding: 3rem;
+    height: 31vh;
+}
+.wtc1{
+    margin-top: 1rem;
+}
+.wtc1 span{
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+.wtc-second{
+    /* width: 44vh; */
+    height: 33vh;
+    flex-grow: 1;
+    display: flex;
+    flex-grow: 1;
+    margin: 3rem 2rem 0px 1rem ;
+    padding-top: 4rem;
+}
+.wtc-second h3{
+    font-size: 2.5rem;
+    padding-left: 3rem;
+}
+.wtc-second p{
+    text-transform: capitalize;
+    padding-left: 4.5rem;
+}
+.events{
+margin: 2rem;
+}
+.eventhead{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.eventimage{
+    display: flex;
+    padding: 0px 15px;
+}
+.eventimage h3{
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+
+
+
+
+
+    
