@@ -1,0 +1,25 @@
+.success{
+    background: seagreen;
+    padding: .7rem 1rem;
+    color: #fff;
+}
+.error{
+    background: tomato;
+    padding: .7rem 1rem;
+    color: #fff;
+}
+.list-group span{
+    cursor: pointer;
+}
+.move{
+    width: 150px;
+}
+.span {
+ float: right;
+ background-color: red;
+ border-radius: 50px;
+ /* margin: auto; */
+ text-align: center;
+ height: 20px;
+ width: 20px;
+}
